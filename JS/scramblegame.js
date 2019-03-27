@@ -187,7 +187,7 @@ const backButton = document.getElementById("back");
 const arrOfWordsEasy = data.filter(word => word.length > 3 && word.length < 6);
 const arrOfWordsHard = data.filter(word => word.length > 4 && word.length < 7);
 let score = 0;
-let seconds = 5;
+let seconds = 101;
 const passedArr = [];
 // Starts here
 let randomWord = randomize();
