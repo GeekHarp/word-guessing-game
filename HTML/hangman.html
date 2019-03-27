@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../CSS/hangman.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link href="../CSS/hover-min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <audio id="correct-sound">
+        <source src="../Audio/Correct.wav" type="audio/wav">
+    </audio>
+    <audio id="wrong-sound">
+        <source src="../Audio/Wrong.wav" type="audio/wav">
+    </audio> -->
+    <header>
+        <h2>Hangman</h2>
+        <p>One player thinks of a word and the other tries to guess it by clicking on the letters within a certain number of guesses</p>
+    </header>
+    <div id="think">
+        <input id="input" type="text" placeholder="Word Here">
+        <button class="hvr-bob hvr-fade" id="enter-button">Enter</button>
+    </div>
+    <p id="display"></p>
+    <div id="buttons-container">
+        <ul id="list">
+            <li class="hvr-buzz-out button">a</li>
+            <li class="hvr-buzz-out button">b</li>
+            <li class="hvr-buzz-out button">c</li>
+            <li class="hvr-buzz-out button">d</li>
+            <li class="hvr-buzz-out button">e</li>
+            <li class="hvr-buzz-out button">f</li>
+            <li class="hvr-buzz-out button">g</li>
+            <li class="hvr-buzz-out button">h</li>
+            <li class="hvr-buzz-out button">i</li>
+            <li class="hvr-buzz-out button">j</li>
+            <li class="hvr-buzz-out button">k</li>
+            <li class="hvr-buzz-out button">l</li>
+            <li class="hvr-buzz-out button">m</li>
+            <li class="hvr-buzz-out button">n</li>
+            <li class="hvr-buzz-out button">o</li>
+            <li class="hvr-buzz-out button">p</li>
+            <li class="hvr-buzz-out button">q</li>
+            <li class="hvr-buzz-out button">r</li>
+            <li class="hvr-buzz-out button">s</li>
+            <li class="hvr-buzz-out button">t</li>
+            <li class="hvr-buzz-out button">u</li>
+            <li class="hvr-buzz-out button">v</li>
+            <li class="hvr-buzz-out button">w</li>
+            <li class="hvr-buzz-out button">x</li>
+            <li class="hvr-buzz-out button">y</li>
+            <li class="hvr-buzz-out button">z</li>
+        </ul>
+    </div>
+    <div id="button-wrapper">
+        <button class="hvr-buzz hvr-fade" id="back">Back</button>
+    </div>
+    <p id="player-chances"></p>
+    <div id="player-options">
+        <button class="hvr-bob hvr-fade" id="restart">PLAY AGAIN</button>
+        <a class="hvr-underline-from-left" id="atag" href="./scramblegame.html">Play ScrambledWord!</a>
+    </div>
+        <a class="hvr-underline-from-left" id="home-atag" href="./scramblegame.html">Play ScrambledWord!</a>
+    <script type="text/javascript" src="../JS/hangman.js"></script>
+</body>
+</html>

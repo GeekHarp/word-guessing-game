@@ -1,1 +1,0 @@
-const arrOfWords = require('an-array-of-english-words');

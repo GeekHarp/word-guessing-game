@@ -1,0 +1,88 @@
+body {
+	background-image: linear-gradient(to right, rgb(180,100,230) , rgb(0,240,200));
+	font-family: 'Amatic SC', cursive;
+	position: relative;
+	/*height: 100%;*/
+}
+header {
+	text-align: center;
+}
+header h2 {
+	font-size: 80px;
+	margin: 0;
+
+}
+header p {
+	font-size: 40px;
+	margin: 0;
+	font-weight: bold;
+}
+#think {
+	text-align: center;
+	margin-top: 20px;
+}
+#input, #enter-button, #display, .button, #restart, #back {
+	background: transparent;
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	font-weight: bolder;
+}
+#atag, #home-atag {
+	background: transparent;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: bolder;
+}
+#enter-button {
+	font-size: 20px;
+	margin-left: 5px;
+}
+#display {
+	width: fit-content;
+	margin: 25px auto;
+	font-size: 40px;
+}
+#buttons-container {
+	text-align: center;
+}
+#list {
+	margin: 0;
+	padding: 0;
+}
+.button {
+	display: inline-block;
+	margin: 5px 8px;
+}
+#button-wrapper {
+	text-align: center;
+	margin: 20px 0;
+}
+#player-chances {
+	text-align: center;
+	font-size: 40px;
+	margin: 0;
+}
+#player-options {
+	text-align: center;
+	margin-top: 20px;
+}
+#atag{
+	margin-left: 20px;
+	text-decoration: none;
+}
+#home-atag {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	text-decoration: none;
+}
+.disabled {
+  opacity:0.4;
+  pointer-events: none;
+}
+#buttons-container, #player-options, #display, #button-wrapper {
+	visibility: hidden;
+}
