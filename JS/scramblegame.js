@@ -80,8 +80,8 @@ function rightOrWrong(){
     const playerMessage  = document.getElementById("message");
     const playerMessage2 = document.getElementById("message2");
     const scoreDisplay  = document.getElementById("score");
-    const correctSound = new Audio("../Audio/Correct.wav");
-    const wrongSound   = new Audio("../Audio/Wrong.wav");
+    const correctSound = new Audio("./Audio/Correct.wav");
+    const wrongSound   = new Audio("./Audio/Wrong.wav");
     // If user gets it right
     if (input.value === randomWord) {
         correctSound.play();
@@ -118,7 +118,7 @@ function countDown(){
     const body = document.querySelector("body");
     const playerOptions = document.getElementById("player-options");
     const scoreDisplay = document.getElementById("score");
-    const gameOver = new Audio("../Audio/Game Over.mp3");
+    const gameOver = new Audio("./Audio/Game Over.mp3");
 
     function addTimer(){
         const displayTimer = document.getElementById("timer");

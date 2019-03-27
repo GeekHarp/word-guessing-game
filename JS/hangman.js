@@ -67,10 +67,10 @@ function submitAnswer2(){
 function checkLetter(e){
     const playerOptions  = document.getElementById("player-options");
     const chancesDisplay = document.getElementById("player-chances");
-    const correctSound = new Audio("../Audio/Correct.wav");
-    const wrongSound   = new Audio("../Audio/Wrong.wav");
-    const gameWon = new Audio("../Audio/Cheering.wav");
-    const gameLost = new Audio("../Audio/Boo.wav");
+    const correctSound = new Audio("./Audio/Correct.wav");
+    const wrongSound   = new Audio("./Audio/Wrong.wav");
+    const gameWon = new Audio("./Audio/Cheering.wav");
+    const gameLost = new Audio("./Audio/Boo.wav");
     const button = document.getElementById("button-wrapper");
     // This will prevent the ul from getting clicked
     if (e.target && e.target.nodeName === "LI") {
