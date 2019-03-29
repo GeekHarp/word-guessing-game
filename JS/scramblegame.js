@@ -24,7 +24,7 @@ function scrambleNumArr(){
     } //console.log(indexArr);
     // Check if indexArr is in order..
     // Encountered cases when indexArr was in order that would result in the word not randomized..
-    if (indexArr[0] === 0 && indexArr[1] === 1 && indexArr[2] === 2) {
+    if (indexArr[0] === 0 && indexArr[1] === 1 && indexArr[2] === 2 && indexArr[3] === 3) {
         // console.log("inside the if");
         indexArr = [];
         while(indexArr.length < wordArr.length){
@@ -83,7 +83,7 @@ function rightOrWrong(){
     const correctSound = new Audio("./Audio/Correct.wav");
     const wrongSound   = new Audio("./Audio/Wrong.wav");
     // If user gets it right
-    if (input.value === randomWord) {
+    if (input.value.toLowerCase() === randomWord) {
         correctSound.play();
         input.value = "";
         score++;
